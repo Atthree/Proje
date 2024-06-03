@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|c:\\users\\abdulkadir tiryaki\\source\\repos\\zayiflamamerkezitakip\\controllers\\startpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:controllers\\startpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\views\\doktorlars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:views\\doktorlars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\models\\olcumler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:models\\olcumler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\controllers\\tedavilerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:controllers\\tedavilerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\controllers\\doktorlarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:controllers\\doktorlarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\views\\tedavilers\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:views\\tedavilers\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\views\\hastalars\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFCE5015-E067-401B-B6BC-9B1456D343BF}|ZayiflamaMerkeziTakip.csproj|solutionrelative:views\\hastalars\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T12:10:46.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartpController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\StartpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StartpController.cs",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\StartpController.cs",
+              "RelativeToolTip": "Controllers\\StartpController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T12:04:42.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T11:08:25.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Olcumler.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Models\\Olcumler.cs",
+              "RelativeDocumentMoniker": "Models\\Olcumler.cs",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Models\\Olcumler.cs",
+              "RelativeToolTip": "Models\\Olcumler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:52:04.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Information.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Hastalars\\Information.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hastalars\\Information.cshtml",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Hastalars\\Information.cshtml",
+              "RelativeToolTip": "Views\\Hastalars\\Information.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T10:50:32.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Information.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Tedavilers\\Information.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tedavilers\\Information.cshtml",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Tedavilers\\Information.cshtml",
+              "RelativeToolTip": "Views\\Tedavilers\\Information.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T10:50:25.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoktorlarsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\DoktorlarsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoktorlarsController.cs",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\DoktorlarsController.cs",
+              "RelativeToolTip": "Controllers\\DoktorlarsController.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAqwMIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:48:05.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TedavilersController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\TedavilersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TedavilersController.cs",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Controllers\\TedavilersController.cs",
+              "RelativeToolTip": "Controllers\\TedavilersController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwKAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:44:22.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Doktorlars\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doktorlars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Abdulkadir Tiryaki\\source\\repos\\ZayiflamaMerkeziTakip\\Views\\Doktorlars\\Details.cshtml",
+              "RelativeToolTip": "Views\\Doktorlars\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T21:31:43.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

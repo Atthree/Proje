@@ -1,0 +1,60 @@
+﻿@model ZayiflamaMerkeziTakip.Models.Olcumler
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<h4>Ölçümler</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OlcumId" />
+            <div class="form-group">
+                <label asp-for="HastaId" class="control-label"></label>
+                <select asp-for="HastaId" class="form-control" asp-items="ViewBag.HastaId"></select>
+                <span asp-validation-for="HastaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OlcumTarihi" class="control-label"></label>
+                <input asp-for="OlcumTarihi" class="form-control" />
+                <span asp-validation-for="OlcumTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kilo" class="control-label"></label>
+                <input asp-for="Kilo" class="form-control" />
+                <span asp-validation-for="Kilo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Boy" class="control-label"></label>
+                <input asp-for="Boy" class="form-control" />
+                <span asp-validation-for="Boy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bmi" class="control-label"></label>
+                <input asp-for="Bmi" class="form-control" />
+                <span asp-validation-for="Bmi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notlar" class="control-label"></label>
+                <input asp-for="Notlar" class="form-control" />
+                <span asp-validation-for="Notlar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geri Dön</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

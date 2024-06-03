@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ZayiflamaMerkeziTakip.Models.Tedaviler>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tedaviler</h1>
+
+<p>
+    <a asp-action="Create">Oluştur</a>
+</p>
+<table class="table table-bordered table-striped" id="list">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TedaviAdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aciklama)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ucret)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TedaviAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aciklama)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ucret)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TedaviId">Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.TedaviId">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.TedaviId">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+<script type="text/javascript">
+    var js = jQuery.noConflict(true);
+    js(document).ready(function () {
+        js('#list').DataTable({
+
+        });
+    });
+</script>
+

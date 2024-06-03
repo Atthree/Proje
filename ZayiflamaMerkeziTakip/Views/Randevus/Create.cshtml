@@ -1,0 +1,68 @@
+﻿@model ZayiflamaMerkeziTakip.Models.Randevu
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Randevu Oluştur</h1>
+
+<h4>Randevu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HastaId" class="control-label">Hasta</label>
+                <select asp-for="HastaId" class ="form-control" asp-items="ViewBag.HastaId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RandevuTarihi" class="control-label"></label>
+                <input asp-for="RandevuTarihi" class="form-control" />
+                <span asp-validation-for="RandevuTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+
+                <label asp-for="UzmanlikId" class="control-label"></label>
+                @Html.DropDownListFor(model => model.UzmanlikId, ViewBag.ListofUzmanlik as SelectList, "Uzmanlık Seçiniz", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+
+                <label asp-for="DoktorId" class="control-label"></label>
+                @Html.DropDownListFor(model => model.DoktorId, new SelectList(""), "Doktor Seçiniz", new { @class = "form-control" })
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geri Dön</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    $(document).ready(function () {
+        $('#UzmanlikId').change(function () {
+            var id = $('#UzmanlikId').val();
+            $.ajax({
+                url: '/Randevus/GetDoktorlar',
+                data: { UzmanlikId: id },
+                type: "POST",
+                dataType: "Json",
+                success: function (data) {
+                    console.log(data);
+                    $('#DoktorId').empty();
+                    for (var i = 0; i < data.length; i++) {
+                        $('#DoktorId').append("<option value='" + data[i].Value + "'>" + data[i].Text + "</option>");
+                    }
+                }
+            });
+        });
+    });
+</script>
